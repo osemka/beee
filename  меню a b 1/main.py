@@ -4,4 +4,4 @@ def function (value):
 
 print('Введите значение: ')
 a = int(input())
-print(function(a))
+print(type(a))

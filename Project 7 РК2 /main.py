@@ -1,6 +1,6 @@
 # глобальные переменные
 userChoice = 0      # переменная, которая хранит выбор пользователя
-values = [12, 32, 2, 0]         # Задание 1: объявить переменную, котоая будет хранить 15 значений
+values = [12, 32, 2, 0]         # Задание 1: объявить переменную, которая будет хранить 15 значений
 
 
 # Выводим меню пользователя
@@ -54,6 +54,8 @@ while userChoice != 6:
         # Задание 4: реализовать поиск значения с выводом его индекса в списке.
         elif userChoice == 4:
             if len(values) != 0:
+                elif userChoice == 5:
+
                 print('Введите число для поиска его индекса:')
                 searchValue = int(input())
                 found = False
@@ -66,8 +68,7 @@ while userChoice != 6:
             else:
                 print('База пустая! Не можем искать!')
 
-        elif userChoice == 5:
-            def sort(array):
+          def sort(array):
                 if len(array) != 0:
                     print('Список до:', array)
                     swapped = False
